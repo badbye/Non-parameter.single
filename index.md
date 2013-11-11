@@ -49,7 +49,7 @@ sign.test = function(x, p, q0) {
 ## 1.2 单样本Wilcoxon符号秩检验
 
 
-在广义符号检验的基础上对数据差异的大小信加以利用息．　　　　
+在广义符号检验的基础上对数据差异的大小信加以利用息．    
 适用范围: **连续对称的总体分布的中位数检验**    
 
 
@@ -68,13 +68,9 @@ wilcox.single = function(x, m0) {
 ```
 
 
-自带函数:**wilcox.test**, 默认进行双边检验
-
-```r
-参数介绍:
-# exact:精确检验；correct:连续性修正;
-# conf.int:是否给出置信区间； conf.level: 置信水平
-```
+自带函数:**wilcox.test**, 默认进行双边检验       
+* exact:精确检验；correct:连续性修正;
+* conf.int:是否给出置信区间； conf.level: 置信水平
 
 ---
 
